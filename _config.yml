@@ -1,15 +1,15 @@
-title: example.com
-description: "Satellite - jekyll blog theme"
+title: Manrahul's Blog
+description: "Manrahul Bajwa | Personal Blog"
 logo_img: "/assets/img/favicon.webp"
 profile_img: "/assets/img/profile.webp"
 
 # Social Links
-email: example@gmail.com
-github_username: github
-twitter_username: twitter
-instagram_username: instagram
-linkedin_username: linkedin
-facebook_username: facebook
+email: manrahulbajwa@gmail.com
+github_username: manrahulbajwa
+twitter_username: manrahulbajwa
+instagram_username: manrahulbajwa
+linkedin_username: manrahulbajwa
+facebook_username: manrahulbajwa
 
 # External API
 giscus_repo: "byanko55/jekyll-theme-satellite"

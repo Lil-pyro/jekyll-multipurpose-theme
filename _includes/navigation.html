@@ -38,6 +38,9 @@
     <ul class="nav-list">
     {%- for node in first_level_pages -%}
         {%- assign node_url = node.url | remove: 'index.html' -%}
+        {% if node_url == '/' %}
+            {% continue %}
+        {% endif %}
         {%- assign node_title = node.path | remove: 'index.md' | split: "/" | last | remove: '.md' | replace: "_pages", "Home" -%}
         {%- assign children_list = second_level_pages 
             | where_exp: "item", "item.url contains node_url" -%}
